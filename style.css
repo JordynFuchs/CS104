@@ -39,3 +39,27 @@ h1, h3, p {
     width: 150px;
     height: 150px;
   }
+  
+  p.specialty {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+  }
+
+  a.one:link {
+    color:blue;
+  }
+
+  a.one:visited {
+    color:gray;
+  }
+
+  a.one:hover {
+    color:red;
+  }
+
+  a.one:active{
+    color:orange;
+  }

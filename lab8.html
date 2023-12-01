@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html style="background-color: aliceblue;">
+    <Head>
+        <title>Portfolio</title>
+        <link  rel="stylesheet" href="style.css">
+    </Head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <body>
+        <h1 style="background-color:darkslateblue;color:plum;font-family:georgia;">Jordyn Fuchs</h1>
+        <h3 style="background-color: darkslategray;color: lightseagreen;font-family:georgia;">NJIT (jpf) B.Arch program</h3>
+        <p style="color:cadetblue">Jordyn Fuchs is a first year student in the New Jersey Institute of Technology, and is part of both the Hillier College of Art and Design and the Albert Dorman Honors College. She is an architecture major and is in the five-year degree and certification program. She found her way to architecture through the arts, seeking a field that would let her design and work creatively. She has an extensive background in the arts that spans from traditional drawing to layered three-dimensional art pieces, and many mediums in between. She also has considerable education in engineering, having completed the four-year PLTW program during her high school career, which gave her experience in CAD and technical drawing as well.
+        </p>
+        <a href="https://njit.instructure.com/courses/31631/users/61561";>My profile</a>
+        <style>
+            a:link {
+              color:darkblue;
+              background-color: transparent;
+              text-decoration: none;
+            }
+            
+            a:visited {
+              color:darkslateblue;
+              background-color: transparent;
+              text-decoration: none;
+            }
+            
+            a:hover {
+              color:cadetblue;
+              background-color: transparent;
+              text-decoration: underline;
+            }
+            
+            a:active {
+              color:midnightblue;
+              background-color: transparent;
+              text-decoration: underline;
+            }
+            </style>
+        <div class="table">
+          <table>
+            <tr>
+              <th>Education</th>
+              <th>Experience</th>
+              <th>Skills</th>
+            </tr>
+            <tr>
+              <td>High School</td>
+              <td>Unspecified</td>
+              <td>Limited</td>
+            </tr>
+            <tr>
+                <td>Cherokee High School</td>
+                <td>Life</td>
+                <td>Misc</td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <form>
+            <input type="text" placeholder="Username"> <br> <br>
+            <input type="text" placeholder="First Name"> <br> <br>
+            <input type="text" placeholder="Last Name"> <br> <br>
+            <input type="email"> <br> <br>
+            <input type="radio" name="course"> Math
+            <input type="radio" name="course"> CS
+            <input type="radio" name="course"> Architecture
+            <input type="checkbox"> Math
+            <input type="checkbox"> CS
+            <input type="checkbox"> Architecture
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        <dv>
+          <ul>
+            <li>ARCH110 - Architecture Tools and Techniques</li>
+            <li>ARCH195 - Architecture Studio</li>
+            <li>ENG102 - Intro to Research Writing</li>
+            <li>FYS - First Year Seminar</li>
+            <li>MATH107 - Precalculus</li>
+          </ul>
+        </dv>
+        <div>
+          <img class="img1" src="C:\Users\Jordyn\Pictures\DaRJ1.png" alt="RJ">
+          <img class="img1" src="C:\Users\Jordyn\Pictures\DaTrav1.png" alt="Travis">
+          <img class="img1" src="C:\Users\Jordyn\Pictures\DaEmile1.png" alt="Emile">
+        </div>
+        <div>
+          <p class="specialty">I am very stressed very often.</p>
+        </div>
+        <div>
+          <ul>
+            <li> <a class="one" href="https://matias.ma/nsfw/">Link 1</a></li>
+            <li> <a class="one" href="https://www.bouncingdvdlogo.com/">Link 2</a></li>
+            <li> <a class="one" href="https://zoomquilt.org/">Link 3</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+               <li><a class="dropdown-item" href="http://www.staggeringbeauty.com/">Link 1</a></li>
+               <li><a class="dropdown-item" href="https://strobe.cool/">Link 2</a></li>
+               <li><a class="dropdown-item" href="http://www.amialright.com/">Link 3</a></li>
+          </ul>
+        </div>
+        <div>
+          <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+       <div id="demo" class="collapse">
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+       </div>
+     </div>
+
+<script>
+let num1 = 20;
+let num2 = 5;
+console.log (num1 + num2) ; console. log (num1 - num2) ; console. log (num1 * num2);
+function calculateGrade (userScore) {
+if (userScore >= 90) {
+return "A Grade";
+} else if (userScore >= 80 && userScore <= 89) {
+return "B Grade";
+}else if (userScore >= 70 && userScore <= 79) {
+return "C Grade";
+} else if (userScore >=60 && userScore <= 69) {
+return "D Grade";
+} else {
+return "F Grade";
+}
+}
+
+var grade = 91
+console. log (calculateGrade (grade))
+grade = 76
+console. log(calculateGrade (grade)) ;
+grade = 87
+console. log (calculateGrade (grade)) ;
+const myElement = document.getElementById("changeTextBtn") ;
+myElement. addEventListener ("click", changetext);
+function changetext() {
+const Pink = document.getElementById( 'displayText ');
+Pink, InnerHTML = 'Hello, JavaScript World!';
+}
+</script>
+
+<form id="loginForm">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  <br>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+<script>
+  document.getElementById('loginForm').addEventListener('submit', function(event) {
+      event.preventDefault(); 
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('password').value;
+      if (!username || !password) {
+          alert('Error: Both username and password are required.');
+      } else {
+          setTimeout(function() {
+              alert('Login successful!');
+          }, 3000);
+      }
+  });
+</script>
+
+</body>
+</html>
